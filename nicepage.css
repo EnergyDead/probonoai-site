@@ -46098,14 +46098,14 @@ a.u-link.u-text-hover-color-var:hover {
 }
 
 .u-header .u-image-2 {
-  width: 386px;
-  height: 510px;
-  margin: 68px auto 0 52px;
+  width: 323px;
+  height: 476px;
+  margin: 29px auto 0 44px;
 }
 
 .u-header .u-text-1 {
-  font-family: "Alumni Sans";
-  margin: -510px 114px 60px 507px;
+  font-size: 4.125rem;
+  margin: -328px 15px 60px 429px;
 }
 @media (max-width: 1199px) {
   .u-header .u-image-1 {
@@ -46113,40 +46113,39 @@ a.u-link.u-text-hover-color-var:hover {
   }
 
   .u-header .u-image-2 {
-    margin-left: 52px;
+    margin-left: 44px;
   }
 
   .u-header .u-text-1 {
-    margin-top: -510px;
-    margin-right: 14px;
-    margin-left: 407px;
+    margin-top: -328px;
+    margin-right: 0;
+    margin-left: 244px;
+    font-size: 3.75rem;
   }
 }
 @media (max-width: 991px) {
   .u-header .u-text-1 {
-    margin-right: 0;
-    margin-left: 201px;
+    margin-left: 24px;
   }
 }
 @media (max-width: 767px) {
   .u-header .u-text-1 {
-    margin-left: 21px;
+    margin-left: 0;
+    font-size: 3rem;
   }
 }
 @media (max-width: 575px) {
-  .u-header .u-sheet-1 {
-    min-height: 804px;
-  }
-
   .u-header .u-image-2 {
-    width: 340px;
-    height: 449px;
-    margin-top: 69px;
-    margin-left: 0;
+    margin-top: 127px;
+    margin-left: auto;
   }
 
   .u-header .u-text-1 {
-    margin-left: 0;
+    font-size: 1.75rem;
+    width: auto;
+    margin-top: -574px;
+    margin-left: 27px;
+    margin-right: 27px;
   }
 }
  .u-footer {
