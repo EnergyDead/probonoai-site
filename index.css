@@ -264,7 +264,7 @@
     margin-top: 44px;
   }
 }.u-section-4 .u-sheet-1 {
-  min-height: 624px;
+  min-height: 589px;
 }
 
 .u-section-4 .u-text-1 {
@@ -294,7 +294,7 @@
   --step-text-done-color: #478ac9;
   --step-text-active-color: #478ac9;
   width: 679px;
-  margin: 83px auto 60px;
+  margin: 66px auto 60px;
 }
 
 .u-section-4 .u-input-1 {
@@ -327,15 +327,19 @@
 }
 
 @media (max-width: 575px) {
+  .u-section-4 .u-sheet-1 {
+    min-height: 643px;
+  }
+
   .u-section-4 .u-text-1 {
     width: auto;
-    margin-top: 118px;
+    margin-top: 60px;
     margin-left: 21px;
     margin-right: 21px;
   }
 
   .u-section-4 .u-form-1 {
-    margin-top: 61px;
+    margin-top: 64px;
     margin-right: initial;
     margin-left: initial;
     width: auto;
