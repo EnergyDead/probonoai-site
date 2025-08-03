@@ -46092,32 +46092,34 @@ a.u-link.u-text-hover-color-var:hover {
 }
 
 .u-header .u-image-1 {
-  width: 152px;
-  height: 73px;
-  margin: 50px auto 0 121px;
-}
-
-.u-header .u-text-1 {
-  font-size: 0.75rem;
-  font-weight: 700;
-  margin: 0 778px 0 53px;
+  width: 176px;
+  height: 85px;
+  margin: 85px 288px 0 auto;
 }
 
 .u-header .u-image-2 {
   width: 382px;
   height: 528px;
-  margin: 21px auto 0 16px;
+  margin: -1px auto 0 0;
+}
+
+.u-header .u-text-1 {
+  font-size: 0.75rem;
+  font-weight: 700;
+  font-family: Roboto, sans-serif;
+  margin: -510px 221px 0 610px;
 }
 
 .u-header .u-text-2 {
   font-size: 2.625rem;
-  font-weight: 400;
-  margin: -420px -24px 0 390px;
+  font-family: "Anonymous Pro";
+  text-shadow: -2px -2px 0px rgba(128,128,128,1);
+  margin: 64px -24px 0 390px;
 }
 
 .u-header .u-text-3 {
   font-size: 1.5rem;
-  margin: 81px 41px 0 429px;
+  margin: 80px 41px 0 429px;
 }
 
 .u-header .u-text-4 {
@@ -46127,22 +46129,22 @@ a.u-link.u-text-hover-color-var:hover {
 }
 @media (max-width: 1199px) {
   .u-header .u-image-1 {
-    margin-left: 121px;
-  }
-
-  .u-header .u-text-1 {
-    margin-top: -54px;
-    margin-right: 631px;
-    margin-left: 0;
+    margin-right: 288px;
   }
 
   .u-header .u-image-2 {
-    margin-top: 73px;
-    margin-left: 16px;
+    margin-top: 32px;
+  }
+
+  .u-header .u-text-1 {
+    margin-top: -614px;
+    margin-right: 121px;
+    margin-left: 510px;
   }
 
   .u-header .u-text-2 {
-    margin-top: -463px;
+    font-weight: 400;
+    margin-top: 138px;
     margin-right: -24px;
     margin-left: 190px;
   }
@@ -46160,12 +46162,14 @@ a.u-link.u-text-hover-color-var:hover {
 }
 @media (max-width: 991px) {
   .u-header .u-text-1 {
-    margin-right: 411px;
+    margin-top: -614px;
+    margin-right: 11px;
+    margin-left: 400px;
   }
 
   .u-header .u-text-2 {
-    margin-right: 0;
     margin-left: 0;
+    margin-right: 0;
   }
 
   .u-header .u-text-3 {
@@ -46178,8 +46182,8 @@ a.u-link.u-text-hover-color-var:hover {
 }
 @media (max-width: 767px) {
   .u-header .u-text-1 {
-    margin-top: -54px;
-    margin-right: 231px;
+    margin-right: 0;
+    margin-left: 231px;
   }
 
   .u-header .u-text-3 {
@@ -46196,44 +46200,46 @@ a.u-link.u-text-hover-color-var:hover {
   }
 
   .u-header .u-image-1 {
+    width: 203px;
+    height: 98px;
     margin-top: 18px;
-    margin-left: auto;
-  }
-
-  .u-header .u-text-1 {
-    width: 235px;
-    margin-top: 0;
-    margin-left: auto;
     margin-right: auto;
   }
 
   .u-header .u-image-2 {
     object-position: 100% 11.76%;
     height: 507px;
-    margin-top: 71px;
+    margin-top: 35px;
     margin-right: initial;
     margin-left: initial;
     width: auto;
   }
 
+  .u-header .u-text-1 {
+    width: 257px;
+    font-family: "Advent Pro";
+    margin-top: -536px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .u-header .u-text-2 {
-    font-size: 1.75rem;
+    font-size: 1.375rem;
     width: auto;
     font-weight: 700;
-    margin-top: -572px;
+    margin-top: 276px;
   }
 
   .u-header .u-text-3 {
     font-size: 0.875rem;
     width: auto;
-    margin-top: 538px;
+    margin-top: 237px;
   }
 
   .u-header .u-text-4 {
     font-size: 0.875rem;
     width: auto;
-    margin-top: 19px;
-    margin-bottom: 50px;
+    margin-top: 36px;
   }
 }
  .u-footer {
@@ -46242,11 +46248,6 @@ a.u-link.u-text-hover-color-var:hover {
 
 .u-footer .u-sheet-1 {
   min-height: 120px;
-}
-
-.u-footer .u-text-1 {
-  width: 417px;
-  margin: 49px auto;
 }
 @media (max-width: 1199px) {
   .u-footer .u-sheet-1 {
@@ -46266,10 +46267,6 @@ a.u-link.u-text-hover-color-var:hover {
 @media (max-width: 575px) {
   .u-footer .u-sheet-1 {
     min-height: 36px;
-  }
-
-  .u-footer .u-text-1 {
-    width: 340px;
   }
 }
 
