@@ -46104,27 +46104,30 @@ a.u-link.u-text-hover-color-var:hover {
 }
 
 .u-header .u-text-1 {
-  font-size: 0.75rem;
+  font-size: 1rem;
+  font-family: Antonio;
   font-weight: 700;
-  font-family: Roboto, sans-serif;
   margin: -510px 221px 0 610px;
 }
 
 .u-header .u-text-2 {
   font-size: 2.625rem;
-  font-family: "Anonymous Pro";
-  text-shadow: -2px -2px 0px rgba(128,128,128,1);
+  font-family: Antonio;
+  text-shadow: 0px 2px 8px rgba(245,214,84,1);
+  font-weight: 400;
   margin: 64px -24px 0 390px;
 }
 
 .u-header .u-text-3 {
-  font-size: 1.5rem;
+  font-size: 1.625rem;
+  font-family: Antonio;
   margin: 80px 41px 0 429px;
 }
 
 .u-header .u-text-4 {
   font-size: 1.5rem;
   font-weight: 700;
+  font-family: Antonio;
   margin: 109px 41px 60px 429px;
 }
 @media (max-width: 1199px) {
@@ -46143,7 +46146,6 @@ a.u-link.u-text-hover-color-var:hover {
   }
 
   .u-header .u-text-2 {
-    font-weight: 400;
     margin-top: 138px;
     margin-right: -24px;
     margin-left: 190px;
@@ -46181,6 +46183,10 @@ a.u-link.u-text-hover-color-var:hover {
   }
 }
 @media (max-width: 767px) {
+  .u-header .u-sheet-1 {
+    min-height: 844px;
+  }
+
   .u-header .u-text-1 {
     margin-right: 0;
     margin-left: 231px;
@@ -46196,7 +46202,7 @@ a.u-link.u-text-hover-color-var:hover {
 }
 @media (max-width: 575px) {
   .u-header .u-sheet-1 {
-    min-height: 883px;
+    min-height: 689px;
   }
 
   .u-header .u-image-1 {
@@ -46217,7 +46223,6 @@ a.u-link.u-text-hover-color-var:hover {
 
   .u-header .u-text-1 {
     width: 257px;
-    font-family: "Advent Pro";
     margin-top: -536px;
     margin-left: auto;
     margin-right: auto;
