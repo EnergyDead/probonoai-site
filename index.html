@@ -152,8 +152,34 @@
               </div>
 
           </form>
+
+            <div style="font-family: Arial, sans-serif; text-align: center; padding: 20px;">
+                <div style="display: flex; justify-content: center; align-items: center; gap: 10px;">
+                    <span style="font-size: 16px; font-weight: bold;">Donate in crypto (TRC20):</span>
+                    <span onclick="copyWallet()"
+                          style="cursor: pointer; font-family: monospace; background: #f2f2f2; padding: 6px 12px; border-radius: 6px; color: #333;">
+      TSEt5aFQ7GzZhrF2U8G1r9jYgYGWx8Uv6T
+    </span>
+                </div>
+                <span id="copied-msg" style="display:none; color: green; font-weight: bold;">Copied!</span>
+            </div>
+
+            <script>
+                function copyWallet() {
+                    const wallet = "TSEt5aFQ7GzZhrF2U8G1r9jYgYGWx8Uv6T";
+                    navigator.clipboard.writeText(wallet).then(() => {
+                        const msg = document.getElementById("copied-msg");
+                        msg.style.display = "inline";
+                        setTimeout(() => {
+                            msg.style.display = "none";
+                        }, 2000);
+                    });
+                }
+            </script>
+
         </div>
       </div>
+
         <script>
             document.addEventListener("DOMContentLoaded", function () {
                 const submitBtn = document.getElementById("submit-btn");
