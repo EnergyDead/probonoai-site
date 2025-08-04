@@ -153,16 +153,35 @@
 
           </form>
 
-            <div style="font-family: Arial, sans-serif; text-align: center; padding: 20px;">
-                <div style="display: flex; justify-content: center; align-items: center; gap: 10px;">
+            <div style="font-family: Arial, sans-serif; padding: 20px;">
+                <div class="donate-container" style="display: flex; justify-content: center; align-items: center; gap: 10px; flex-wrap: wrap;">
                     <span style="font-size: 16px; font-weight: bold;">Donate in crypto (TRC20):</span>
                     <span onclick="copyWallet()"
                           style="cursor: pointer; font-family: monospace; background: #f2f2f2; padding: 6px 12px; border-radius: 6px; color: #333;">
       TSEt5aFQ7GzZhrF2U8G1r9jYgYGWx8Uv6T
     </span>
+                    <span id="copied-msg" style="display:none; color: green; font-weight: bold;">Copied!</span>
                 </div>
-                <span id="copied-msg" style="display:none; color: green; font-weight: bold;">Copied!</span>
             </div>
+
+            <style>
+                @media (max-width: 600px) {
+                    .donate-container {
+                        flex-direction: column;
+                        gap: 6px;
+                    }
+
+                    .donate-container span {
+                        font-size: 14px !important;
+                    }
+
+                    .donate-container span[onclick] {
+                        font-size: 13px !important;
+                        padding: 4px 10px !important;
+                    }
+                }
+            </style>
+
 
             <script>
                 function copyWallet() {
